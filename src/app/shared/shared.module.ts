@@ -4,7 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DefaultLayoutComponent } from './layouts/default-layout/default-layout.component';
-import { HeaderComponent, SidebarComponent } from './components';
+import { HeaderComponent, SidebarComponent, SelectComponent } from './components';
 
 const BASE_MODULES = [CommonModule, FormsModule, ReactiveFormsModule];
 const LIB_MODULES = [NgbModule];
@@ -12,6 +12,7 @@ const COMPONENTS = [
   DefaultLayoutComponent,
   HeaderComponent,
   SidebarComponent,
+  SelectComponent,
 ];
 const SHARED_PROVIDERS = [];
 
